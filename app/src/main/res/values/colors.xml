@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#BD7800</color>
+    <color name="primaryV">#573700</color>
+    <color name="secondary">#FF6200EE</color>
+    <color name="secondaryV">#FF6200EE</color>
+    <color name="forecolor">#FF3700B3</color>
+    <color name="backcolor">#FF03DAC5</color>
+    <color name="under">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
