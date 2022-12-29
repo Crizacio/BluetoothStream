@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             public void handleMessage(android.os.Message msg) {
                 if (msg.what == handlerState) {
                     String readMessage = (String) msg.obj;
-                    AddEvento("<", readMessage);
+                    AddEvento(">", readMessage);
                 }
             }
         };
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     public void metEnviar(View view) {
         String mensaje = edt_Comando.getText().toString();
         mConnectedThread.write(mensaje);
-        AddEvento(">", mensaje);
+        AddEvento("<", mensaje);
     }
 
     @SuppressLint("MissingPermission")
